@@ -1,14 +1,16 @@
 const express = require('express');
 const app = express();
 
-// @import "index.css";
+const mustacheExpress = require('mustache-express');
+app.engine('mustache', mustacheExpress());
+
 app.use(express.static('public'))
+app.set('views', __dirname + '/views')
+app.set('view engine', 'mustache')
 
 app.get('/', function(req, res) {
-  let state = process.env.BUSTED_STATE || "Maybe"
-  res.send(
-  	stylizedString(state)
-  );
+  const state = process.env.BUSTED_STATE || "Maybe"
+  res.render('index', { state });
 });
 
 app.get('/set', function(req, res) {
