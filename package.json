@@ -10,6 +10,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@google-cloud/redis": "^1.1.4",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mustache": "^3.0.2",
+    "mustache-express": "^1.2.8"
   }
 }
