@@ -1,17 +1,13 @@
 .parent {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .centered {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 50%;
-    height: 30%;
-    margin: auto;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 128px;
+    font-weight: bold;
 }
