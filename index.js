@@ -35,14 +35,12 @@ app.get('/set', function(req, res) {
 		  stylizedString("Yes! ✌🏼")
     	);
     	process.env["BUSTED_STATE"] = "Yes"
-		// set cache values
     } else {
     	res.send(
 		  stylizedString("No! 🙅🏻‍♀️")
     	);
 
     	process.env["BUSTED_STATE"] = "No"
-    	// set cache values
     }
 });
 
