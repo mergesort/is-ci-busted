@@ -203,6 +203,6 @@
    
    ---
    
-`*` A definitive list of people for whom this license is GPL and not Apache 2.0:
+`*` A definitive list of people for whom this license is GPL v3.0 and not Apache 2.0:
 
 	Richard Stallman
