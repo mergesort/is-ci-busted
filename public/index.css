@@ -11,3 +11,16 @@
     font-size: 128px;
     font-weight: bold;
 }
+
+@media (prefers-color-scheme: light) {
+    body { 
+        background: #FFFFFF; 
+        color: #000000;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body { 
+        background: #222222; 
+        color: #C8C8C8;
+    }
+}
