@@ -14,7 +14,7 @@ A dumb site I made to learn how to use Google Cloud Run and enough JavaScript to
 
 ### What does it do?
 
-It lets you set a large white page with the text **Yes** or **No** depending on the state of your CI. Sorry dark mode users, I didn't even do enough work to make a black on white version.
+It lets you set a large white page with the text **Yes** or **No** depending on the state of your CI.
 
 ### How do I use it?
 
